@@ -8,14 +8,14 @@ public class add_of_2_matrisis {
         int m[][]=new int [r][c];
         int n[][]=new int [r][c];
         int p[][]=new int [r][c];
-        System.out.println("enetr the array1 elements : ");
+        System.out.println("enter the array1 elements : ");
         for(int i =0;i<r;i++){
             for(int j=0;j<c;j++){
                 m[i][j]=sc.nextInt();
             }
             System.out.println();
         }
-        System.out.println("enetr the array2 elements : ");
+        System.out.println("enter the array2 elements : ");
         for(int i =0;i<r;i++){
             for(int j=0;j<c;j++){
                 n[i][j]=sc.nextInt();
@@ -27,7 +27,7 @@ public class add_of_2_matrisis {
                 p[i][j]=m[i][j]+n[i][j];
             }
         }
-        System.out.println("the summ of 2D array are :");
+        System.out.println("the sum of 2D array are :");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 System.out.print(" "+p[i][j]+" ");
