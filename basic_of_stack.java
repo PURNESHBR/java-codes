@@ -13,7 +13,7 @@ public class basic_of_stack {
         st.push(4);
         st.add(5);//same as push
         st.add(2,6);//add element at particular idx
-        st.addFirst(0);//add to bottom of stack
+        st.addFirst(0);//add to bottom of stack 
         System.out.println(st.capacity());//return the current capacity of stack
         System.out.println(st.size());//return no of elements 
         @SuppressWarnings("unused")

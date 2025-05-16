@@ -5,6 +5,7 @@ public class framework_map_interface {
         LinkedHashMap<Integer,String> ls=new LinkedHashMap<>();//ordered
         TreeMap<Integer,String> tm=new TreeMap<>();//sorted in order of keys
         m.put(1, "purn");
+        m.put(1, "aakash");//it will replace the value of 1
         m.put(2, "ayu");
         m.put(3, "sai");
         for(var i:m.keySet()){
