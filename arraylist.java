@@ -11,8 +11,9 @@ public class arraylist{
         l1.add(5);
         System.out.println(l1.get(1));
         System.out.println(l1);
-        for(int i=0;i<l1.size();i++)
-        System.out.println(l1.get(i));
+        for(int i=0;i<l1.size();i++){
+            System.out.println(l1.get(i));
+        }
         l1.add(0,0);
         l1.set(5,6);
         l1.remove(5);
